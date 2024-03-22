@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Footer() {
     return (
       <footer className="w-full bg-darkblue flex flex-col justify-center pt-20 pb-6">
-        <div className="mx-auto w-328 text-white">
-          <div className="mb-20 flex justify-between gap-10 w-full">
+        <div className="w-full mx-auto px-3 text-white hub:w-328 hub:px-0">
+          <div className="mb-20 flex flex-col justify-between gap-10 w-full hub:flex-row">
             <div>
               <h4 className="text-lg font-semibold mb-4">Navegue</h4>
               <ul>
@@ -42,10 +42,10 @@ export default function Footer() {
           </div>
         </div>
         <hr />
-        <div className="mx-auto w-328 flex flex-row justify-between pt-8">
+        <div className="w-full mx-auto h-auto flex flex-col justify-between pt-8 px-3 hub:w-328 hub:px-0 md:flex-row">
           <Image src="../tagline_white.svg" width={100} height={11} alt="Logotipo eTA Hub"/>
-          <div>
-            <span className="text-zinc-400">Todos os direitos reservados © 2024 eTA Hub. Desenvolvido por Dev Gustavo</span>
+          <div className="mt-6 hub:mt-0">
+            <span className="text-zinc-400 text-xs ">Todos os direitos reservados © 2024 eTA Hub. Desenvolvido por Dev Gustavo</span>
           </div>
         </div>
       </footer>

@@ -11,6 +11,15 @@ const config: Config = {
       'sans': ['Lato', 'sans-serif']
     },
     extend: {
+      screens: {
+        hub: '1320px'
+      },
+      backgroundImage: {
+        'about-us-main': "url('/traveling-together.jpg')",
+        'about-us': "url('/about-us.jpg')",
+        'nosso-hub': "url('/nosso-hub.jpg')",
+        'contato': "url('/contato.jpg')"
+      },
       colors: {
         "white": "#FFFFFF",
         "darkblue": "#00111F",
