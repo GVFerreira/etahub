@@ -6,17 +6,18 @@ import { Splide, SplideSlide, SplideTrack  } from '@splidejs/react-splide'
 import '@splidejs/react-splide/css'
 
 export default function Testemonials() {
-    const [width, setWidth] = useState(window.innerWidth)
-
-    const updateDimensions = () => {
-        setWidth(window.innerWidth)
-    }
+    const [width, setWidth] = useState(0)
 
     useEffect(() => {
-        window.addEventListener('resize', updateDimensions)
-
-        return () => {
-            window.removeEventListener('resize', updateDimensions)
+        if (typeof window !== 'undefined') {
+            setWidth(window.innerWidth)
+            const updateDimensions = () => {
+                setWidth(window.innerWidth)
+            }
+            window.addEventListener('resize', updateDimensions)
+            return () => {
+                window.removeEventListener('resize', updateDimensions)
+            }
         }
     }, [])
 
