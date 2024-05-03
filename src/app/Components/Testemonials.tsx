@@ -31,29 +31,24 @@ export default function Testemonials() {
 
     const testemonials = [
         {
-            message: "1. Essa é a primeira mensagem",
-            name: "Bruno",
-            nationality: "Brasileiro, eTA Canadense"
+            message: "Gostei da seriedade e vou indicar para amigos meus. ",
+            name: "Gilson S.",
+            nationality: "Minas Gerais"
         },
         {
-            message: "2. Essa é a segunda mensagem",
-            name: "Cristiano",
-            nationality: "Português, eTA Canadiano"
+            message: "Muito obrigado pela sua pronta atenção à minha solicitação. Desculpe pelos erros no preenchimento. São esses atendimentos que fazem a gente continuar acreditando. Valeu!",
+            name: "João Carlos M.",
+            nationality: "Rio Grande do Sul"
         },
         {
-            message: "3. Essa é a terceira mensagem",
-            name: "Gustavo",
-            nationality: "Espanhol, eTA Canadiense"
+            message: "Ufa! Você foi fantástico! Não sei como agradecer. Muito grata mesmo. ",
+            name: "Lucia B.",
+            nationality: "Ceará"
         },
         {
-            message: "4. Essa é a quarta mensagem",
-            name: "Guilherme",
-            nationality: "Mexicano, eTA Canadiense"
-        },
-        {
-            message: "5. Essa é a quinta mensagem",
-            name: "John Doe",
-            nationality: "Brasileiro, eTA Nova Zelândia"
+            message: "Sim! Eu e minha madrinha já recebemos nossas eTAs! Foi incrivelmente rápido. Obrigada!",
+            name: "Paula T.",
+            nationality: "Paraná"
         }
     ]
 
