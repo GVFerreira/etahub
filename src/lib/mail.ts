@@ -117,7 +117,7 @@ export async function sendMail({name, email, message}: {name?: string, email?: s
                       <td class="es-m-p0r" valign="top" align="center" style="padding:0;Margin:0;width:560px">
                       <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px">
                         <tr>
-                          <td align="center" style="padding:0;Margin:0;font-size:0px"><a target="_blank" href="https://etacanadense.com.br" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#191818;font-size:14px"><img class="adapt-img" src="https://etahub.com.br/tagline_white.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="255" height="91"></a></td>
+                          <td align="center" style="padding:0;Margin:0;font-size:0px"><a target="_blank" href="https://etahub.com.br" style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#191818;font-size:14px"><img class="adapt-img" src="https://etahub.com.br/tagline_white.png" alt style="display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic" width="255" height="91"></a></td>
                         </tr>
                       </table></td>
                     </tr>

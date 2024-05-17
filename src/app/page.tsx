@@ -13,7 +13,7 @@ export default function Home() {
         <div className="text-white text-center hub:w-328 hub:px-72 hub:mx-auto">
           <h1 className="text-5xl mb-6 font-bold sm:text-h1">Emita sua eTA de forma fácil e conveniente.</h1>
           <p className="text-lg mt-6 mb-10">Simplificamos o processo de solicitação de eTA para que você possa se concentrar no que realmente importa: a sua viagem.</p>
-          <a href="/nosso-hub" className="px-6 py-2 border bg-hub-blue rounded-sm"><span className="leading-8">Saiba mais sobre a eTA Hub</span></a>
+          <a href="/sobre-nos" className="bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300"><span className="leading-8">Saiba mais sobre a eTA Hub</span></a>
         </div>
       </section>
 
@@ -71,7 +71,7 @@ export default function Home() {
           <span className="font-semibold mb-4">Quem somos?</span>
           <h2 className="text-4xl mb-6 hub:text-5xl">Criada por viajantes, para viajantes. Assim nasceu a eTA Hub.</h2>
           <p className="mb-6">A eTA Hub foi pensada para facilitar as suas viagens internacionais, empregando uma equipe dedicada, que se esforça para tornar o processo de obtenção de autorizações eletrônicas de viagem (eTAs) o mais simples e tranquilo possível para os nossos clientes.</p>
-          <a href="/sobre-nos" className="bg-hub-blue px-6 py-2 border rounded-sm"><span className="leading-8">Saiba mais sobre nós</span></a>
+          <a href="/sobre-nos" className="bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300"><span className="leading-8">Saiba mais sobre nós</span></a>
         </div>
         <Image src="/airplane-aboutus.jpg" className="w-full mt-20 overflow-clip" width={1448} height={483} quality={100} priority alt="A girl in front of the airplane" />
       </section>
@@ -175,11 +175,6 @@ export default function Home() {
             open={false}
           />
           <AccordionItem
-            question="Como solicito uma eTA?"
-            answer="O processo de solicitação de eTA pode ser feito por meio de um dos sites de emissão de eTA da eTA Hub . Preencha o formulário online, pague a respectiva taxa e receba a resposta do governo."
-            open={false}
-          />
-          <AccordionItem
             question="Por quanto tempo é válida uma eTA?"
             answer="A validade de uma eTA também pode variar dependendo do país de destino. Em muitos casos, uma eTA é válida por vários anos a partir da data de emissão ou até que o passaporte do viajante expire, o que ocorrer primeiro. Consulte os detalhes da sua eTA para obter informações específicas sobre sua validade."
             open={false}
@@ -191,8 +186,8 @@ export default function Home() {
           />
           <div className="text-center mt-20">
             <h3 className="text-3xl font-bold mb-4">Ainda ficou com dúvidas?</h3>
-            <p className="mb-6">O nosso suporte funciona através dos e-mails.<br />Clique no botão abaixo para entrar em contato conosco</p>
-            <a href="/contato" className="px-6 py-2 border border-hub-gray rounded-sm"><span className="leading-8">Contato</span></a>
+            <p className="mb-6">Clique no botão abaixo para entrar em contato conosco</p>
+            <a href="/contato" className="text-white bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300"><span className="leading-8">Contato</span></a>
           </div>
         </div>
       </section>

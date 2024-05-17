@@ -14,7 +14,7 @@ export default function Contact() {
         <div className="hub:w-328 hub:mx-auto hub:flex hub:flex-row hub:gap-20">
           <div>
             <h2 className="text-4xl font-bold mb-4 hub:text-5xl">Entre em contato conosco.</h2>
-            <p>Se caso tenha dúvidas, sugestões ou reclamações, preencha o formulário abaixo.</p>
+            <p>Caso tenha dúvidas, sugestões ou reclamações, preencha o formulário abaixo.</p>
             <ContactForm />
           </div>
           <div>

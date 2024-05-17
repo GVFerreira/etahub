@@ -27,7 +27,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="w-full h-80 bg-about-us bg-cover bg-center bg-no-repeat" />
+      <section className="w-full h-[450px] bg-about-us bg-cover bg-bottom bg-no-repeat" />
       
       <section className="py-16 px-3 hub:py-20">
         <div className="hub:w-328 hub:mx-auto">
@@ -64,7 +64,7 @@ export default function About() {
       </section>
 
       <section className="py-16 bg-hub-blue text-white text-center hub:py-20">
-        <h2 className="text-4xl font-bold mt-4 mb-6 hub:text-5xl">Conheça os nosso hub de sites.</h2>
+        <h2 className="text-4xl font-bold mt-4 mb-6 hub:text-5xl">Conheça o nosso hub de sites.</h2>
         <a href="/nosso-hub" className="px-6 py-2 bg-white rounded-sm"><span className="leading-8 text-darkblue">Ver sites</span></a>
       </section>
     </main>
