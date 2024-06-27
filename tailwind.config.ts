@@ -15,8 +15,10 @@ const config: Config = {
         hub: '1320px'
       },
       backgroundImage: {
+        'info': "url('/black-white-portrait-digital-nomads.webp')",
         'about-us-main': "url('/traveling-together.jpg')",
         'about-us': "url('/about-us.jpg')",
+        'pattern': "url('/pattern.png')",
         'nosso-hub': "url('/nosso-hub.jpg')",
         'contato': "url('/contato.jpg')"
       },

@@ -4,28 +4,32 @@ import { User, Envelope, PaperPlaneTilt } from "@phosphor-icons/react/dist/ssr"
 import { sendMail } from "@/lib/mail"
 import { useForm } from "react-hook-form"
 
+import {useTranslations} from 'next-intl'
+import { usePathname } from "@/navigation"
 
 export default function ContactForm() {
   const form = useForm()
 
+  const t = useTranslations('Contact')
+  const pathname = usePathname()
+
   const handleSendMail = form.handleSubmit(async ({name, email, message}) => {
     try {
       await sendMail({name, email, message})
-      window.location.href = "/contato"
+      window.location.href = pathname
     } catch (e) {
       console.error(e)
     }
   })
   
-
   return (
     <form onSubmit={handleSendMail}>
       <div className="relative my-4">
         <input
           type="text"
           id="name"
-          className="py-3 px-4 ps-11 block w-full border border-gray-500 shadow-sm rounded-md text-sm text-gray-500 md:w-2/3 disabled:opacity-50 disabled:pointer-events-none"
-          placeholder="Ex: João Silva"
+          className="py-3 px-4 ps-11 block w-full border border-gray-500 shadow-sm rounded-md text-sm text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
+          placeholder={t('form.placeholder.name')}
           {...form.register('name')}
           required
         />
@@ -38,8 +42,8 @@ export default function ContactForm() {
         <input
           type="email"
           id="email"
-          className="py-3 px-4 ps-11 block w-full border border-gray-500 shadow-sm rounded-md text-sm text-gray-500 md:w-2/3 disabled:opacity-50 disabled:pointer-events-none"
-          placeholder="seunome@seuemail.com"
+          className="py-3 px-4 ps-11 block w-full border border-gray-500 shadow-sm rounded-md text-sm text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
+          placeholder={t('form.placeholder.email')}
           {...form.register('email')}
           required
         />
@@ -50,8 +54,9 @@ export default function ContactForm() {
 
       <textarea
         id="message"
-        className="py-3 px-4 block w-full border border-gray-500 rounded-lg text-sm md:w-2/3 disabled:opacity-50 disabled:pointer-events-none"
-        placeholder="Digite a sua mensagem..."
+        rows={5}
+        className="py-3 px-4 block w-full border border-gray-500 rounded-lg text-sm disabled:opacity-50 disabled:pointer-events-none"
+        placeholder={t('form.placeholder.message')}
         {...form.register('message')}
         required
       />
@@ -59,6 +64,7 @@ export default function ContactForm() {
       <div className="relative my-4">
         <input
           type="submit"
+          value={form.formState.isSubmitting ? t('form.submit.sending') : t('form.submit.send')}
           className="cursor-pointer py-3 px-4 ps-11 block shadow-sm rounded-md text-sm text-white bg-hub-blue disabled:opacity-50 disabled:pointer-events-none"
           disabled={form.formState.isSubmitting}
         />

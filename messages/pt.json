@@ -1,0 +1,165 @@
+{
+  "Header": {
+    "inicio": "Início",
+    "sobre": "Sobre nós",
+    "hub": "Nosso hub",
+    "contato": "Contato"
+  },
+  "Footer": {
+    "paragraph": "A eTA Hub foi pensada para facilitar as suas viagens internacionais, empregando uma equipe dedicada, que se esforça para tornar o processo de obtenção de autorizações eletrônicas de viagem (eTAs) o mais simples e tranquilo possível para os nossos clientes.",
+    "nav": {
+      "title": "Navegue",
+      "inicio": "Início",
+      "sobre": "Sobre nós",
+      "hub": "Nosso hub",
+      "contato": "Contato"
+    },
+    "hub": "Nosso Hub",
+    "company": "Todos os direitos reservados",
+    "developed": "Desenvolvido por"
+  },
+  "Home": {
+    "section-1": {
+      "title-h1": "Emita sua eTA de forma fácil e conveniente.",
+      "subtitle": "Simplificamos o processo de solicitação de eTA para que você possa se concentrar no que realmente importa: a sua viagem.",
+      "button": "Saiba mais sobre a eTA Hub"
+    },
+    "section-2": {
+      "title-h2": "Os melhores sites para você fazer sua solicitação de Autorização Eletrônica de Viagem."
+    },
+    "section-3": {
+      "title-h2": "Como funciona?",
+      "div1-title": "Preencha o formulário",
+      "div1-paragraph": "Informe seus dados de viagem para solicitar a Autorização.",
+      "div2-title": "Realize o pagamento",
+      "div2-paragraph": "Faça o pagamento da taxa em um ambiente totalmente SEGURO para finalizar a solicitação.",
+      "div3-title": "Receba sua eTA",
+      "div3-paragraph": "Após aprovado, receba seu documento de viagem no e-mail informado no formulário, em até 24 horas."
+    },
+    "section-4": {
+      "subtitle": "Quem somos?",
+      "title-h2": "Criada por viajantes, para viajantes. Assim nasceu a eTA Hub.",
+      "paragraph": "A eTA Hub foi pensada para facilitar as suas viagens internacionais, empregando uma equipe dedicada, que se esforça para tornar o processo de obtenção de autorizações eletrônicas de viagem (eTAs) o mais simples e tranquilo possível para os nossos clientes.",
+      "button": "Saiba mais sobre nós",
+      "image-alt": "Uma garota na frente de um avião"
+    },
+    "section-5": {
+      "subtitle": "Estátisticas",
+      "title-h2": "Veja em números, o que carregamos em nossa mala.",
+      "div1-paragraph": "Tempo médio de aprovação",
+      "div2-paragraph": "Taxa de aprovação",
+      "div3-paragraph": "Clientes atendidos"
+    },
+    "section-6": {
+      "div1-title": "Totalmente online",
+      "div1-paragraph": "Nosso processo de solicitação é totalmente online, permitindo que você solicite sua eTA a partir do conforto da sua casa, escritório ou onde você estiver.",
+      "div2-title": "Preencha sua aplicação em poucos minutos",
+      "div2-paragraph": "Nossa interface amigável guia você passo a passo no processo de solicitação da sua eTA, permitindo que você finalize sua aplicação em poucos minutos.",
+      "div3-title": "99% de aprovação",
+      "div3-paragraph": "Nossa taxa de aprovação de 99% traz a segurança que você precisa. Embora a decisão final da concessão da eTA seja do governo, nossa equipe especializada revisa cuidadosamente cada solicitação para garantir precisão e conformidade, evitando erros que poderiam gerar problemas na sua aprovação."
+    },
+    "section-8": {
+      "title-h2": "Conheça os nosso hub de sites.",
+      "button": "Ver sites"
+    },
+    "section-9": {
+      "title-h2": "Dúvidas frequentes.",
+      "title-h3": "Ainda ficou com dúvidas?",
+      "paragraph": "Clique no botão abaixo para entrar em contato conosco",
+      "button": "Contato"
+    }
+  },
+  "About": {
+    "section-1": {
+      "title": "Quem somos?",
+      "heading": "A eTA Hub é especialista em simplificar suas viagens internacionais. Nosso foco é tornar a obtenção de Autorizações Eletrônicas de Viagem (eTAs) uma experiência fácil e segura. Combinamos experiência em viagens e tecnologia para oferecer um serviço de alta qualidade, centrado no cliente e sem complicações."
+    },
+    "section-2": {
+      "subtitle": "Sobre nós",
+      "title": "Como surgiu o eTa Hub.",
+      "paragraph-1": "A história da eTA Hub é uma narrativa de inovação e a necessidade de simplificar o processo de viagens internacionais.",
+      "paragraph-2": "Tornar as viagens ao redor do mundo mais acessíveis e livres de complicações sempre foi e sempre será a nossa grande aspiração. Diante das, nossa equipe fundadora decidiu agir.",
+      "paragraph-3": "Movidos pela experiência pessoal de enfrentar os desafios burocráticos ao planejar viagens ao exterior, especialmente em relação às complexidades muitas vezes associadas à obtenção de documentos de viagem, como a Autorização Eletrônica de Viagem (eTA), reconhecemos a necessidade de uma solução mais eficiente e centrada no cliente. Assim, empreendemos o desafio de criar uma plataforma que simplificasse o processo de obtenção de eTAs, inicialmente focando em destinos populares como o Canadá e a Nova Zelândia.",
+      "paragraph-4": "Para isso, reunimos uma equipe dedicada de profissionais experientes no setor de viagens e tecnologia. Combinando conhecimento especializado com uma abordagem inovadora, desenvolvemos uma plataforma intuitiva e eficaz que coloca a experiência do cliente em primeiro lugar.",
+      "paragraph-5": "Desde então, temos trabalhado incansavelmente para expandir nossa oferta e aprimorar nossos serviços, sempre com o objetivo de proporcionar uma experiência de solicitação de eTA sem complicações para viajantes de todo o mundo.",
+      "paragraph-6": "Hoje, a eTA Hub orgulha-se de ser um hub confiável para a obtenção de eTAs, continuando a crescer e evoluir para atender às necessidades em constante mudança dos nossos clientes. Nossa jornada está apenas começando, e estamos ansiosos para continuar simplificando o caminho para as aventuras que aguardam além das fronteiras."
+    },
+    "section-3": {
+      "subtitle": "Nosso core",
+      "title": "O que é importante para nós.",
+      "paragraph-1": "Na eTA Hub, objetivamos simplificar o processo de obtenção de Autorizações Eletrônicas de Viagem (eTAs) para viajantes que desejam explorar o mundo. Nosso compromisso é garantir que cada etapa, desde a solicitação até a aprovação, seja uma experiência sem complicações e satisfatória para nossos clientes.",
+      "paragraph-2": "Valorizamos a facilidade e a conveniência, projetando nossa plataforma para oferecer um processo de solicitação intuitivo e acessível. A transparência é fundamental em tudo o que fazemos, fornecendo informações claras sobre requisitos, taxas e prazos de processamento, para que os clientes possam tomar decisões informadas.",
+      "paragraph-3": "Nosso foco no atendimento ao cliente de qualidade se reflete em nossa equipe dedicada, pronta para oferecer suporte personalizado e resolver qualquer dúvida ou preocupação que os clientes possam ter. Além disso, priorizamos a segurança e a confiabilidade, garantindo que os dados dos clientes sejam tratados com o mais alto nível de proteção.",
+      "paragraph-4": "Estamos comprometidos com a atualização constante e a adaptação às mudanças regulatórias e de mercado, garantindo que nossos processos estejam sempre em conformidade e nossa plataforma esteja pronta para atender às necessidades de novos destinos. Investimos em inovação tecnológica para aprimorar ainda mais a experiência do cliente, incorporando recursos avançados para garantir eficiência e precisão em cada interação.",
+      "paragraph-5": "Na eTA Hub, estamos preparados para ser seu parceiro confiável em suas viagens internacionais, oferecendo uma jornada tranquila e sem complicações para as aventuras que esperam do outro lado das fronteiras.",
+      "cores": {
+        "mission": {
+          "title": "Missão",
+          "paragraph": "Nossa missão é simplificar o processo de obtenção de Autorizações Eletrônicas de Viagem (eTAs), proporcionando aos viajantes uma experiência tranquila e sem complicações. Estamos comprometidos em oferecer um serviço de alta qualidade, com foco na facilidade, transparência e segurança, para que nossos clientes possam desfrutar de suas aventuras internacionais com confiança e tranquilidade."
+        },
+        "view": {
+          "title": "Visão",
+          "paragraph": "Nossa visão é sermos reconhecidos como líderes no fornecimento de soluções inovadoras e eficientes para a obtenção de eTAs em todo o mundo. Buscamos constantemente aprimorar nossos serviços e expandir nossa oferta para novos destinos, mantendo sempre nosso compromisso com a excelência e a satisfação do cliente."
+        },
+        "value": {
+          "title": "Valores",
+          "paragraph": "Nossa visão é sermos reconhecidos como líderes no fornecimento de soluções inovadoras e eficientes para a obtenção de eTAs em todo o mundo. Buscamos constantemente aprimorar nossos serviços e expandir nossa oferta para novos destinos, mantendo sempre nosso compromisso com a excelência e a satisfação do cliente."
+        }
+      }
+    },
+    "section-4": {
+      "title-h2": "Conheça os nosso hub de sites.",
+      "button": "Ver sites"
+    }
+  },
+  "Hub": {
+    "title": "Nosso Hub",
+    "button": "Ir para o site",
+    "button-not-allowed": "Em breve",
+    "Canadense": {
+      "title": "Nosso site de solicitações de viagem para o Canadá em português-BR",
+      "paragraph": "O eTA (Autorização Eletrônica de Viagem) é uma exigência do governo canadense para viajantes que estão isentos de visto e desejam entrar no Canadá por via aérea. Ele é uma medida de segurança que permite às autoridades canadenses avaliar os viajantes antes de sua chegada, ajudando a garantir a segurança do país e a facilitar o controle de fronteiras. O eTA é necessário mesmo para trânsitos ou escalas no Canadá e é válido por cinco anos ou até a data de expiração do passaporte, o que ocorrer primeiro. Portanto, é essencial para qualquer viajante que planeje visitar o Canadá por via aérea estar ciente dessa exigência e garantir que sua autorização esteja em ordem antes da viagem."
+    },
+    "Canadiano": {
+      "title": "Nosso site de solicitações de viagem para o Canadá em português-PT.",
+      "paragraph": "O eTA (Autorização Eletrônica de Viagem) é uma exigência do governo canadense para viajantes que estão isentos de visto e desejam entrar no Canadá por via aérea. Ele é uma medida de segurança que permite às autoridades canadenses avaliar os viajantes antes de sua chegada, ajudando a garantir a segurança do país e a facilitar o controle de fronteiras. O eTA é necessário mesmo para trânsitos ou escalas no Canadá e é válido por cinco anos ou até a data de expiração do passaporte, o que ocorrer primeiro. Portanto, é essencial para qualquer viajante que planeje visitar o Canadá por via aérea estar ciente dessa exigência e garantir que sua autorização esteja em ordem antes da viagem."
+    },
+    "Canadiense": {
+      "title": "Nosso site de solicitações de viagem para o Canadá em espanhol.",
+      "paragraph": "O eTA (Autorização Eletrônica de Viagem) é uma exigência do governo canadense para viajantes que estão isentos de visto e desejam entrar no Canadá por via aérea. Ele é uma medida de segurança que permite às autoridades canadenses avaliar os viajantes antes de sua chegada, ajudando a garantir a segurança do país e a facilitar o controle de fronteiras. O eTA é necessário mesmo para trânsitos ou escalas no Canadá e é válido por cinco anos ou até a data de expiração do passaporte, o que ocorrer primeiro. Portanto, é essencial para qualquer viajante que planeje visitar o Canadá por via aérea estar ciente dessa exigência e garantir que sua autorização esteja em ordem antes da viagem."
+    },
+    "Nova-Zelandia": {
+      "title": "Nosso site de solicitações de viagem para a Nova Zelândia",
+      "paragraph": "A Autorização Eletrônica de Viagem (eTA) para a Nova Zelândia é um requisito online para visitantes de países que têm isenção de visto. A eTA agiliza o processo de entrada, fornecendo informações antecipadas sobre os viajantes e melhorando a segurança das fronteiras."
+    },
+    "Reino-Unido": {
+      "title": "EM BREVE... eTA Reino Unido",
+      "paragraph": "O Reino Unido está implementado um sistema de Autorização Eletrônica de Viagem (eTA) para visitantes isentos de visto. Isso significa que será necessária uma permissao digital obrigatória para cidadãos de países que podem visitar a Inglaterra, o País de Gales, a Escócia e a Irlanda do Norte sem visto para viagens curtas. Isso inclui os cidadãos do Brasil."
+    },
+    "Uniao-Europeia": {
+      "title": "EM BREVE... eTIAS União Europeia",
+      "paragraph": "O Sistema Europeu de Informação e Autorização de Viagem (ETIAS) é um sistema de autorização prévia que está sendo implementado pela União Europeia para permitir a entrada de viajantes de países isentos de visto em viagens de curta duração para os países do Espaço Schengen. O ETIAS foi projetado para reforçar a segurança das fronteiras da UE, pré-aprovando viajantes elegíveis antes de sua chegada."
+    }
+  },
+  "Contact": {
+    "title": "Contato",
+    "contact": {
+      "title": "Nos envie uma mensagem",
+      "heading": "Tem alguma dúvida ou deseja sugerir alguma melhoria em nossos serviços? Preencha o formulário desta página e retornaremos o mais breve possível.",
+      "localization": "Localização",
+      "brasil": "Brasil"
+    },
+    "form": {
+      "title": "Formulário de contato",
+      "placeholder": {
+        "name": "Ex: João Silva",
+        "email": "Ex: seunome@seudominio.com.br",
+        "message": "Digite a sua mensagem..."
+      },
+      "submit": {
+        "send": "Enviar",
+        "sending": "Enviando..."
+      }
+    }
+  }
+}

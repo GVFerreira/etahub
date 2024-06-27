@@ -1,0 +1,165 @@
+{
+  "Header": {
+    "inicio": "Home",
+    "sobre": "About Us",
+    "hub": "Our hub",
+    "contato": "Contact"
+  },
+  "Footer": {
+    "paragraph": "eTA Hub was designed to facilitate your international travel, employing a dedicated team, who strive to make the process of obtaining electronic travel authorizations (eTAs) as simple and smooth as possible for our customers.",
+    "nav": {
+      "title": "Surf",
+      "inicio": "Home",
+      "sobre": "About Us",
+      "hub": "Our Hub",
+      "contato": "Contact"
+    },
+    "hub": "Our Hub",
+    "company": "All rights reserved",
+    "developed": "Developed by"
+  },
+  "Home": {
+    "section-1": {
+      "title-h1": "Issue your eTA easily and conveniently.",
+      "subtitle": "We've simplified the eTA application process so you can focus on what really matters: your trip.",
+      "button": "Learn more about eTA Hub"
+    },
+    "section-2": {
+      "title-h2": "The best websites for you to make your Electronic Travel Authorization request."
+    },
+    "section-3": {
+      "title-h2": "How does it work?",
+      "div1-title": "Fill out the form",
+      "div1-paragraph": "Provide your travel information to request the Authorization.",
+      "div2-title": "Make the payment",
+      "div2-paragraph": "Pay the fee in a completely SECURE environment to finalize the request.",
+      "div3-title": "Receive your eTA",
+      "div3-paragraph": "Once approved, receive your travel document in the email provided in the form, within 24 hours."
+    },
+    "section-4": {
+      "subtitle": "Who are we?",
+      "title-h2": "Created by travelers, for travelers. That's how eTA Hub was born.",
+      "paragraph": "eTA Hub was designed to make your international travels easier, employing a dedicated team that strives to make the process of obtaining electronic travel authorizations (eTAs) as simple and smooth as possible for our clients.",
+      "button": "Learn more about us",
+      "image-alt": "A girl in front of the airplane"
+    },
+    "section-5": {
+      "subtitle": "Statistics",
+      "title-h2": "See in numbers, what we carry in our bag.",
+      "div1-paragraph": "Average approval time",
+      "div2-paragraph": "Approval rate",
+      "div3-paragraph": "Clients served"
+    },
+    "section-6": {
+      "div1-title": "Fully online",
+      "div1-paragraph": "Our application process is entirely online, allowing you to apply for your eTA from the comfort of your home, office, or wherever you are.",
+      "div2-title": "Complete your application in just a few minutes",
+      "div2-paragraph": "Our user-friendly interface guides you step by step through the eTA application process, enabling you to complete your application in just a few minutes.",
+      "div3-title": "99% approval rate",
+      "div3-paragraph": "Our 99% approval rate provides the assurance you need. Although the final decision on the eTA grant is up to the government, our specialized team carefully reviews each application to ensure accuracy and compliance, avoiding mistakes that could cause issues with your approval."
+    },
+    "section-8": {
+      "title-h2": "Discover our website hub.",
+      "button": "View websites"
+    },
+    "section-9": {
+      "title-h2": "Frequently Asked Questions",
+      "title-h3": "Still have questions?",
+      "paragraph": "Click the button below to contact us",
+      "button": "Contact"
+    }
+  },
+  "About": {
+    "section-1": {
+      "title": "Who we are?",
+      "heading": "eTA Hub specializes in simplifying your international travel. Our focus is on making the acquisition of Electronic Travel Authorizations (eTAs) an easy and secure experience. We combine travel expertise and technology to offer a high-quality service that is customer-centric and hassle-free."
+    },
+    "section-2": {
+      "subtitle": "About Us",
+      "title": "How eTa Hub came about.",
+      "paragraph-1": "The story of eTA Hub is a narrative of innovation and the need to simplify the process of international travel.",
+      "paragraph-2": "Making travel around the world more accessible and hassle-free has always been, and will always be, our great aspiration. Faced with this, our founding team decided to take action.",
+      "paragraph-3": "Driven by personal experience of facing bureaucratic challenges when planning trips abroad, especially in relation to the complexities often associated with obtaining travel documents like the Electronic Travel Authorization (eTA), we recognized the need for a more efficient and customer-focused solution. Thus, we undertook the challenge of creating a platform that simplified the process of obtaining eTAs, initially focusing on popular destinations like Canada and New Zealand.",
+      "paragraph-4": "To this end, we assembled a dedicated team of professionals experienced in the travel and technology sector. Combining specialized knowledge with an innovative approach, we developed an intuitive and effective platform that puts the customer experience first.",
+      "paragraph-5": "Since then, we have worked tirelessly to expand our offering and improve our services, always with the goal of providing a hassle-free eTA application experience for travelers around the world.",
+      "paragraph-6": "Today, eTA Hub is proud to be a reliable hub for obtaining eTAs, continuing to grow and evolve to meet the constantly changing needs of our customers. Our journey is just beginning, and we are excited to continue simplifying the path to the adventures that await beyond borders."
+    },
+    "section-3": {
+      "subtitle": "Our core",
+      "title": "What is important to us.",
+      "paragraph-1": "At eTA Hub, we aim to simplify the process of obtaining Electronic Travel Authorizations (eTAs) for travelers wanting to explore the world. Our commitment is to ensure that every step, from application to approval, is a hassle-free and satisfying experience for our customers.",
+      "paragraph-2": "We value ease and convenience, designing our platform to offer an intuitive and accessible application process. Transparency is key in all we do, providing clear information about requirements, fees, and processing times so that customers can make informed decisions.",
+      "paragraph-3": "Our focus on quality customer service is reflected in our dedicated team, ready to offer personalized support and resolve any questions or concerns our customers may have. Moreover, we prioritize security and reliability, ensuring that customer data is treated with the highest level of protection.",
+      "paragraph-4": "We are committed to constant updating and adapting to regulatory and market changes, ensuring that our processes are always compliant and our platform is ready to meet the needs of new destinations. We invest in technological innovation to further enhance the customer experience, incorporating advanced features to ensure efficiency and accuracy in every interaction.",
+      "paragraph-5": "At eTA Hub, we are prepared to be your trusted partner in your international travels, offering a smooth and hassle-free journey to the adventures that await beyond the borders.",
+      "cores": {
+        "mission": {
+          "title": "Mission",
+          "paragraph": "Our mission is to simplify the process of obtaining Electronic Travel Authorizations (eTAs), providing travelers with a smooth and hassle-free experience. We are committed to offering a high-quality service, focusing on ease, transparency, and security, so that our customers can enjoy their international adventures with confidence and peace of mind."
+        },
+        "view": {
+          "title": "Vision",
+          "paragraph": "Our vision is to be recognized as leaders in providing innovative and efficient solutions for obtaining eTAs worldwide. We constantly seek to improve our services and expand our offering to new destinations, always maintaining our commitment to excellence and customer satisfaction."
+        },
+        "value": {
+          "title": "Values",
+          "paragraph": "At eTA Hub, our values guide our processes and actions. We strive for excellence, transparency, and trust, always innovating to provide the best service to our customers. We put our customers first, acting with responsibility and adaptability in all situations. These core values are the foundation of our commitment to providing an exceptional experience and being an efficient solution for our customers."
+        }
+      }
+    },
+    "section-4": {
+      "title-h2": "Discover our website hub.",
+      "button": "View websites"
+    }
+  },
+  "Hub": {
+    "title": "Our Hub",
+    "button": "Go to website",
+    "button-not-allowed": "Coming soon",
+    "Canadense": {
+      "title": "Our travel application site for Canada in Brazilian Portuguese.",
+      "paragraph": "The eTA (Electronic Travel Authorization) is a requirement from the Canadian government for visa-exempt travelers wishing to enter Canada by air. It is a security measure that allows Canadian authorities to assess travelers before their arrival, helping to ensure the country's security and facilitate border control. The eTA is necessary even for transits or stopovers in Canada and is valid for five years or until the passport expiration date, whichever comes first. Therefore, it is essential for any traveler planning to visit Canada by air to be aware of this requirement and ensure their authorization is in order before traveling."
+    },
+    "Canadiano": {
+      "title": "Our travel application site for Canada in European Portuguese.",
+      "paragraph": "The eTA (Electronic Travel Authorization) is a requirement from the Canadian government for visa-exempt travelers wishing to enter Canada by air. It is a security measure that allows Canadian authorities to assess travelers before their arrival, helping to ensure the country's security and facilitate border control. The eTA is necessary even for transits or stopovers in Canada and is valid for five years or until the passport expiration date, whichever comes first. Therefore, it is essential for any traveler planning to visit Canada by air to be aware of this requirement and ensure their authorization is in order before traveling."
+    },
+    "Canadiense": {
+      "title": "Our travel application site for Canada in Spanish.",
+      "paragraph": "The eTA (Electronic Travel Authorization) is a requirement from the Canadian government for visa-exempt travelers wishing to enter Canada by air. It is a security measure that allows Canadian authorities to assess travelers before their arrival, helping to ensure the country's security and facilitate border control. The eTA is necessary even for transits or stopovers in Canada and is valid for five years or until the passport expiration date, whichever comes first. Therefore, it is essential for any traveler planning to visit Canada by air to be aware of this requirement and ensure their authorization is in order before traveling."
+    },
+    "Nova-Zelandia": {
+      "title": "Our travel application site for New Zealand.",
+      "paragraph": "The Electronic Travel Authorization (eTA) for New Zealand is an online requirement for visitors from visa waiver countries. The eTA streamlines the entry process by providing advance information about travelers and enhancing border security."
+    },
+    "Reino-Unido": {
+      "title": "COMING SOON... eTA United Kingdom",
+      "paragraph": "The United Kingdom is implementing an Electronic Travel Authorization (eTA) system for visa-exempt visitors. This means that a mandatory digital permission will be required for citizens of countries that can visit England, Wales, Scotland, and Northern Ireland without a visa for short trips. This includes citizens of Brazil."
+    },
+    "Uniao-Europeia": {
+      "title": "COMING SOON... eTIAS European Union",
+      "paragraph": "The European Travel Information and Authorization System (ETIAS) is a pre-authorization system being implemented by the European Union to allow entry of visa-exempt travelers on short trips to the Schengen Area countries. ETIAS is designed to strengthen EU border security by pre-approving eligible travelers before their arrival."
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "contact": {
+      "title": "Send us a message",
+      "heading": "Do you have any questions or would you like to suggest any improvements to our services? Fill out the form on this page and we will get back to you as soon as possible.",
+      "localization": "Localization",
+      "brasil": "Brazil"
+    },
+    "form": {
+      "title": "Contact form",
+      "placeholder": {
+        "name": "Eg: John Doe",
+        "email": "Eg: yourname@yourdomain.com",
+        "message": "Type your message..."
+      },
+      "submit": {
+        "send": "Send",
+        "sending": "Sending..."
+      }
+    }
+  }
+}
