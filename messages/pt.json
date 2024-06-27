@@ -159,6 +159,10 @@
       "submit": {
         "send": "Enviar",
         "sending": "Enviando..."
+      },
+      "handler": {
+        "success-msg": "Formulário enviado com sucesso.",
+        "error-msg": "Ocorreu um erro. Tente novamente." 
       }
     }
   }

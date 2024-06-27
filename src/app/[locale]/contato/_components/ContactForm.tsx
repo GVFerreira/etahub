@@ -5,20 +5,23 @@ import { sendMail } from "@/lib/mail"
 import { useForm } from "react-hook-form"
 
 import {useTranslations} from 'next-intl'
-import { usePathname } from "@/navigation"
+
+import toast from "react-hot-toast"
 
 export default function ContactForm() {
-  const form = useForm()
+  const { register, handleSubmit, reset, formState } = useForm();
 
   const t = useTranslations('Contact')
-  const pathname = usePathname()
 
-  const handleSendMail = form.handleSubmit(async ({name, email, message}) => {
+  const handleSendMail = handleSubmit(async ({name, email, message}) => {
     try {
       await sendMail({name, email, message})
-      window.location.href = pathname
+      toast.success(t('form.handler.success-msg'))
+      reset()
     } catch (e) {
       console.error(e)
+      toast.error(t('form.handler.error-msg'))
+      reset()
     }
   })
   
@@ -30,7 +33,7 @@ export default function ContactForm() {
           id="name"
           className="py-3 px-4 ps-11 block w-full border border-gray-500 shadow-sm rounded-md text-sm text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
           placeholder={t('form.placeholder.name')}
-          {...form.register('name')}
+          {...register('name')}
           required
         />
         <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
@@ -44,7 +47,7 @@ export default function ContactForm() {
           id="email"
           className="py-3 px-4 ps-11 block w-full border border-gray-500 shadow-sm rounded-md text-sm text-gray-500 disabled:opacity-50 disabled:pointer-events-none"
           placeholder={t('form.placeholder.email')}
-          {...form.register('email')}
+          {...register('email')}
           required
         />
         <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
@@ -57,16 +60,16 @@ export default function ContactForm() {
         rows={5}
         className="py-3 px-4 block w-full border border-gray-500 rounded-lg text-sm disabled:opacity-50 disabled:pointer-events-none"
         placeholder={t('form.placeholder.message')}
-        {...form.register('message')}
+        {...register('message')}
         required
       />
 
       <div className="relative my-4">
         <input
           type="submit"
-          value={form.formState.isSubmitting ? t('form.submit.sending') : t('form.submit.send')}
+          value={formState.isSubmitting ? t('form.submit.sending') : t('form.submit.send')}
           className="cursor-pointer py-3 px-4 ps-11 block shadow-sm rounded-md text-sm text-white bg-hub-blue disabled:opacity-50 disabled:pointer-events-none"
-          disabled={form.formState.isSubmitting}
+          disabled={formState.isSubmitting}
         />
         <div className="absolute inset-y-0 start-0 flex items-center pointer-events-none z-20 ps-4">
           <PaperPlaneTilt className="flex-shrink-0 size-5 text-white"/>
