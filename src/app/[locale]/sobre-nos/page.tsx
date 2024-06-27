@@ -1,4 +1,6 @@
 import {useTranslations} from 'next-intl'
+import { Link } from '@/navigation'
+
 import { Crosshair, Eye, SketchLogo } from "@phosphor-icons/react/dist/ssr"
 
 export default function About() {
@@ -76,7 +78,9 @@ export default function About() {
       {/* Seção 4 */}
       <section className="py-16 bg-hub-blue text-white text-center hub:py-20">
         <h2 className="text-4xl font-bold mt-4 mb-6 hub:text-5xl">{t('section-4.title-h2')}</h2>
-        <a href="/nosso-hub" className="px-6 py-2 bg-white rounded-sm"><span className="leading-8 text-darkblue">{t('section-4.button')}</span></a>
+        <Link href="/nosso-hub" className="px-6 py-2 bg-white rounded-sm">
+          <span className="leading-8 text-darkblue">{t('section-4.button')}</span>
+        </Link>
       </section>
     </main>
   )

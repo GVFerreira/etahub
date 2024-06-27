@@ -1,10 +1,13 @@
 import Image from "next/image"
+
 import {useTranslations} from 'next-intl'
+import { Link } from '@/navigation'
+
 import { HandPointing, Wallet, Envelope, Globe, HourglassSimpleMedium, ShieldCheck } from "@phosphor-icons/react/dist/ssr"
+
 import Testemonials from "./Components/Testemonials"
 import Accordion from "./Components/Accordion"
 import HeroVideo from "./Components/HeroVideo"
-
 
 export default function Home() {
   const t = useTranslations('Home')
@@ -17,7 +20,9 @@ export default function Home() {
         <div className="text-white text-center hub:w-328 hub:px-72 hub:mx-auto">
           <h1 className="text-5xl mb-6 font-bold sm:text-h1">{t('section-1.title-h1')}</h1>
           <p className="text-lg mt-6 mb-10">{t('section-1.subtitle')}</p>
-          <a href="/sobre-nos" className="bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300"><span className="leading-8">{t('section-1.button')}</span></a>
+          <Link href="/sobre-nos" className="bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300">
+            <span className="leading-8">{t('section-1.button')}</span>
+          </Link>
         </div>
       </section>
 
@@ -79,7 +84,9 @@ export default function Home() {
           <span className="font-semibold mb-4">{t('section-4.subtitle')}</span>
           <h2 className="text-4xl mb-6 hub:text-5xl">{t('section-4.title-h2')}</h2>
           <p className="mb-6">{t('section-4.paragraph')}</p>
-          <a href="/sobre-nos" className="bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300"><span className="leading-8">{t('section-4.button')}</span></a>
+          <Link href="/sobre-nos" className="bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300">
+            <span className="leading-8">{t('section-4.button')}</span>
+          </Link>
         </div>
         <Image src="/airplane-aboutus.jpg" className="w-full mt-20 overflow-clip" width={1448} height={483} quality={100} priority alt={t('section-4.image-alt')} />
       </section>
@@ -155,7 +162,9 @@ export default function Home() {
       {/* Seção 8 */}
       <section className="py-16 bg-hub-blue text-white text-center hub:py-20">
         <h2 className="text-4xl font-bold mt-4 mb-6 hub:text-5xl">{t('section-8.title-h2')}</h2>
-        <a href="/nosso-hub" className="px-6 py-2 bg-white rounded-sm"><span className="leading-8 text-darkblue">{t('section-8.button')}</span></a>
+        <Link href="/nosso-hub" className="px-6 py-2 bg-white rounded-sm">
+          <span className="leading-8 text-darkblue">{t('section-8.button')}</span>
+        </Link>
       </section>
 
       {/* Seção 9 */}
@@ -166,7 +175,9 @@ export default function Home() {
           <div className="text-center mt-20">
             <h3 className="text-3xl font-bold mb-4">{t('section-9.title-h3')}</h3>
             <p className="mb-6">{t('section-9.paragraph')}</p>
-            <a href="/contato" className="text-white bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300"><span className="leading-8">{t('section-9.button')}</span></a>
+            <Link href="/contato" className="text-white bg-hub-blue px-6 py-2 rounded-md hover:bg-lightblue transition-all ease-in duration-300">
+              <span className="leading-8">{t('section-9.button')}</span>
+            </Link>
           </div>
         </div>
       </section>
