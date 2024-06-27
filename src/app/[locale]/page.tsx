@@ -3,6 +3,7 @@ import {useTranslations} from 'next-intl'
 import { HandPointing, Wallet, Envelope, Globe, HourglassSimpleMedium, ShieldCheck } from "@phosphor-icons/react/dist/ssr"
 import Testemonials from "./Components/Testemonials"
 import Accordion from "./Components/Accordion"
+import HeroVideo from "./Components/HeroVideo"
 
 
 export default function Home() {
@@ -12,9 +13,7 @@ export default function Home() {
     <main style={{flex: "1 1 0"}}>
       {/* Seção 1 */}
       <section className="relative overflow-hidden bg-cover bg-center bg-no-repeat py-16 px-3 hub:py-40 hub:px-0">
-        <video className="absolute w-full min-h-full z-[-10] inset-0 scale-[3] md:scale-[1] sm:scale-[0.5]" loop autoPlay preload="true" muted>
-          <source src="/video/travelling-corridor.mp4" type="video/mp4" />
-        </video>
+        <HeroVideo />
         <div className="text-white text-center hub:w-328 hub:px-72 hub:mx-auto">
           <h1 className="text-5xl mb-6 font-bold sm:text-h1">{t('section-1.title-h1')}</h1>
           <p className="text-lg mt-6 mb-10">{t('section-1.subtitle')}</p>
