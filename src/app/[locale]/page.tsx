@@ -108,7 +108,7 @@ export default function Home() {
                 <p>{t('section-5.div2-paragraph')}</p>
               </div>
               <div className="flex flex-col mb-8">
-                <span className="text-5xl mb-2 font-bold">1.3k+</span>
+                <span className="text-5xl mb-2 font-bold">2.4k+</span>
                 <p>{t('section-5.div3-paragraph')}</p>
               </div>
             </div>
